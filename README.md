@@ -1,5 +1,5 @@
 # RAM_and_ROM
-here we make 64x8 bit RAM and 8x8 bit ROM memory design in verilog.
+here we make 64x8 bit RAM and 16x4 bit ROM memory design in verilog.
 # RAM
 Random Access Memory(RAM) is volatile memory, which means that the stored information is lost when there is no power.when we open program, it gets loaded from hard drive into RAM. this is because reading of data from RAM is much faster than reading data from hard drive.
 
