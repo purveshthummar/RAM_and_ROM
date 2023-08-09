@@ -27,7 +27,7 @@ output [7:0]data_out;
 reg [7:0] ram [63:0]; //array called 'ram' with 64 elements, where each element is 8-bit wide register 
 reg [5:0] addr_reg;
 
-always @ (posedge we)
+	always @ (posedge clk)
 	begin
 		if (we) //write enable
 			ram[addr] <= data_in;
