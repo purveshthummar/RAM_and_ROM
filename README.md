@@ -9,8 +9,18 @@ here we design 64x8 bit single port RAM. which means we have 64 address location
 ![block_diagram](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/5568193f-3b60-4ae7-a0e8-4c6a0528374b)
 
 OUTPUT:-
+
+![testbench](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/36f4473d-78bf-45f4-875e-f42cffa298f2)
 ![op_ram](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/dd08a765-ece0-4a21-a7c2-275142fc1e71)
 # ROM
 Read Only Memory(ROM) is computer memory chip containing permanent data.ROM is non-volatile.
 
 here we design 16x4 bit ROM which means ROM is having 16 locations and store 4-bit data at one location.there are 3 input port in which 'addr' is 4-bit because it is sufficiant to store 16 location(2^4 =16), 'en' (enable) if it is 1(high) mean we can read data otherwise not, 'clk' for clock.'dout' is output which is 4-bit.
+
+![block_diagram](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/c9b4b783-8857-47c5-b45c-68e88a017e4e)
+
+OUTPUT:-
+
+![testbench](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/807f9257-cbad-4457-9d22-3028f1e3dc97)
+![op_rom](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/61342283-b801-4ad6-a465-3c91002cb700)
+
