@@ -30,14 +30,14 @@ module rom_tb;
 	reg [3:0] addr;
 
 	// Outputs
-	wire [3:0] data;
+	wire [3:0] dout;
 
 	// Instantiate the Unit Under Test (UUT)
 	rom uut (
 		.clk(clk), 
 		.en(en), 
 		.addr(addr), 
-		.data(data)
+		.dout(dout)
 	);
 
 	initial begin
