@@ -6,6 +6,7 @@ Random Access Memory(RAM) is volatile memory, which means that the stored inform
 there are two type of RAM- 1.single port RAM, 2.dual port RAM. single port RAM can be access one address at one time thus we can read or write only one memory cell during each clock cycle. in dual port RAM we can simultaneously read and write diffrent memory cell at different address.
 
 here we design 64x8 bit single port RAM. which means we have 64 address location on RAM in each we store 8-bit of data.there are 4 input port in which 'data_in' is 8-bit, 'addr' is 6-bit because 6bit are sufficiant to store 64 location (2^6 = 64), 'we' (write enable)pin if it is 1(high) then write data in ram and if 0(low) then readinng data from ram, 'clk' is clock signal. 'data_out' is output port  which is 8-bit.
+
 ![block_diagram](https://github.com/purveshthummar/RAM_and_ROM/assets/140932979/5568193f-3b60-4ae7-a0e8-4c6a0528374b)
 
 OUTPUT:-
