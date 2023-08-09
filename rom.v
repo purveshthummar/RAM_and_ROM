@@ -18,19 +18,19 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module rom(clk,en,addr,data);
+module rom(clk,en,addr,dout);
 input clk,en;
 input [3:0] addr;
-output reg [3:0] data;
+output reg [3:0] dout;
 
 reg [3:0] mem [15:0]; //4-bit data and 16 location
 
 always @ (posedge clk)
 begin
 	if (en)
-		data <= mem[addr];
+		dout <= mem[addr];
 	else
-		data <= 4'bxxxx;
+		dout <= 4'bxxxx;
 end
 
 initial 
